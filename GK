@@ -1,0 +1,38 @@
+def banner ():
+    print("\* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+    print("++                                                   ++")
+    print("++                                                   ++")
+    print("++                                                   ++")
+
+    print("++            #GENERAL KNOWLEDGE#                    ++")
+    print("++           // CODED BY AUNTOR //                   ++")
+    print("++                                                   ++")
+    print("++  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ +")
+    
+banner()
+
+import getpass
+
+p = getpass.getpass( " what is the capital of Bangladesh-")
+if p.lower() == 'dhaka':
+    print('Right Answer')
+else:
+     print('Wrong Answer')
+p = getpass.getpass( "who is the protector of the Holy Quran-")
+if p.lower() == 'god':
+    print('Right Answer')
+else:
+     print('Wrong Answer')
+p = getpass.getpass(" what is the currency name of south Africa-")
+if p.lower() == 'rand':
+    print('Right Answer')
+else:
+    print('Wrong Answer')
+p = getpass.getpass("Android is a product of-")
+if p.lower() == 'google':
+    print('Right Answer')
+else:
+    print('Wrong Answer')
+
+print("Thank You, next time see you again")
+
